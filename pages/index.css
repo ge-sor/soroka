@@ -1,9 +1,26 @@
 @import url(../vendor/normalize.css);
 
+@import url(../fonts/fonts/Inter/inter.css);
+
 @import url(../blocks/page/page.css);
 
 @import url(../blocks//header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__logo/menu__logo.css);
 
 @import url(../blocks/content/content.css);
+@import url(../blocks/products/products.css);
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__image/product__image.css);
+@import url(../blocks/product/__description/product__description.css);
+
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__icon/social__icon.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
