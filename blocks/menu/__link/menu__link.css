@@ -9,3 +9,9 @@
 .menu__link:hover {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    .menu__link {
+        font-size: 30px;
+    }
+}
