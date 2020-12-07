@@ -1,4 +1,25 @@
 .social__link {
     text-decoration: none;
+    font-size: 24px;
     color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, .5);
+}
+
+.social__link {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    transition: .3s;
+    font-size: 24px;
+}
+
+.social__link:hover {
+    transform: scale(1.1);
+    background-color: #C0C0C0;
 }

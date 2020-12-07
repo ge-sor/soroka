@@ -1,20 +1,25 @@
 @import url(../vendor/normalize.css);
 
-@import url(../fonts/fonts/Inter/inter.css);
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks//header/header.css);
+@import url(../blocks/header/__text/header__text.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__logo/menu__logo.css);
 
+@import url(../blocks/search/search.css);
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/products/products.css);
 @import url(../blocks/product/product.css);
+@import url(../blocks/product/__link/product__link.css);
 @import url(../blocks/product/__image/product__image.css);
 @import url(../blocks/product/__description/product__description.css);
 

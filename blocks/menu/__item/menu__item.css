@@ -1,3 +1,13 @@
 .menu__item {
     text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, .5);
+}
+
+.menu__item:hover {
+    background-color: #C0C0C0;
 }

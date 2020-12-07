@@ -1,0 +1,11 @@
+.product__link {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    transition: .3s;
+    font-size: 24px;
+}
+
+.product__link:hover {
+    transform: scale(1.1);
+}
